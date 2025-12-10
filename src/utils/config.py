@@ -1,0 +1,23 @@
+MAX_SEQUENCE_LENGTH = 128
+EMBEDDING_DIM = 300
+LSTM_UNITS = 128
+DENSE_UNITS = 64
+DROPOUT_RATE = 0.5
+NUM_CLASSES = 3
+VOCAB_SIZE = 25000
+
+BATCH_SIZE = 32
+EPOCHS = 30
+LEARNING_RATE = 0.001
+PATIENCE = 5
+
+TRAIN_SPLIT = 0.7
+VAL_SPLIT = 0.15
+TEST_SPLIT = 0.15
+
+DATA_PATH = 'data/raw/sentiment_dataset.csv'
+PROCESSED_DATA_PATH = 'data/processed/'
+MODEL_SAVE_PATH = 'models/saved/lstm_model.h5'
+WORD2VEC_PATH = 'models/word2vec-google-news-300'
+
+CLASS_NAMES = ['Negative', 'Neutral', 'Positive']
